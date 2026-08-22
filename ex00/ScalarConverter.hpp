@@ -11,7 +11,7 @@ private:
   ~ScalarConverter();
 
 public:
-  static convert(const std::string& literal);
+  static void convert(const std::string &literal);
 };
 
 #endif // SCALARCONVERTER_HPP
