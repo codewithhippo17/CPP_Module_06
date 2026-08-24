@@ -8,9 +8,7 @@ ScalarConverter::ScalarConverter(const ScalarConverter &other) {
 }
 
 ScalarConverter &ScalarConverter::operator=(const ScalarConverter &other) {
-  if (this != &other) {
-    // TODO: copy members
-  }
+  (void)other;
   return (*this);
 }
 
